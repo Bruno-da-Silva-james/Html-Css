@@ -5,6 +5,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 td, th{
     border: 1px solid black;
@@ -17,8 +18,11 @@ caption{
     padding: 10px;
     background-color: lightgray;
 }
-body > thead::after{
+
+thead > tr > th{
     position: sticky;
+    top: -1px;
+    background-color: gray;
 }
 thead, tfoot{
     background-color: gray;
