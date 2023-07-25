@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+body > thead::after{
+    position: sticky;
+}
+thead, tfoot{
+    background-color: gray;
+    color: white;
+}
+.num{
+    text-align: right;
+}
+tbody > tr:nth-child(even){
+    background-color: lightgray;
+}
