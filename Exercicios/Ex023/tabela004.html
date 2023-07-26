@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 700px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 30px;
+            background-color: rgba(0, 0, 0, 0.534);
+            color: white;
+        }
+        thead{
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+        tr{
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col"><strong>Grupos</strong></th>
+                <th scope="col"><strong>Nomes</strong></th>
+                <th scope="colgroup" colspan="3"><strong>Filmes</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Mulheres</strong></td>
+                <td>Maria</td>
+                <td>Intocaveis</td>
+                <td>Rambo</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <td>Vitoria</td>
+                <td>Amnesia</td>
+                <td>Big Hero</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Camile</td>
+                <td>Gladiador</td>
+                <td>300</td>
+                <td>OldBoy</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Homens</strong></td>
+                <td>Carlos</td>
+                <td>Hobbit</td>
+                <td>Batman</td>
+                <td>Coringa</td>
+            </tr>
+            <tr>
+                <td>Andre</td>
+                <td>Wall-e</td>
+                <td>Toy-story</td>
+                <td>Hereditario</td>
+            </tr>
+            <tr>
+                <td>Robson</td>
+                <td>Taxi driver</td>
+                <td>Pulp fiction</td>
+                <td>oblivion</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
