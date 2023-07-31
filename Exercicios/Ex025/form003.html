@@ -10,7 +10,19 @@
     <form action="cadastro.php" method="get">
         <p>
             <label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo">
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Media</label>
+            <input type="number" name="media" id="imedia">
+        </p>
+        <p>
+            <label for="ihora">Hora</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
