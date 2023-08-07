@@ -13,5 +13,5 @@ menu{
     display: none;
 }
 article::after{
-    content: 'Esse artigo foi impresso atraves do meu cu';
+    content: 'Esse artigo foi impresso atraves do meu';
 }
